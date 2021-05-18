@@ -16,8 +16,17 @@
   <body>
     <header>
       <h1>Lets play TicTacToe</h1>
+      <div>
+        <button id="reset-game">Reset Game</button>
+        <button id="change-name">Change Name</button>
+      </div>
     </header>
     <main>
+      <aside class="player-display">
+        <h2 id="player1-name">Player1</h2>
+        <p>Score:</p>
+        <p id="player1-score">0</p>
+      </aside>
       <section class="game-container">
         <div class="game-piece" id="pos1"></div>
         <div class="game-piece" id="pos2"></div>
@@ -29,8 +38,20 @@
         <div class="game-piece" id="pos8"></div>
         <div class="game-piece" id="pos9"></div>
       </section>
+      <aside>
+        <h2 id="player2-name">Computer</h2>
+        <p>Score:</p>
+        <p id="player2-score">0</p>
+      </aside>
     </main>
-    <footer><p>All rights reserved</p></footer>
+    <footer id="game-piece-choice">
+      <h3>Choose your marker</h3>
+      <div>
+        <button id="x-button" class="clicked">X</button>
+        <button id="o-button">O</button>
+      </div>
+      <h2 id="show-winner"></h2>
+    </footer>
     <script src="scripts.js"></script>
   </body>
 </html>
