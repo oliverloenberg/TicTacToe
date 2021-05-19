@@ -67,9 +67,9 @@ aside {
   margin: 0 3rem;
 }
 
-/* .player-display {
-  margin: 0 1rem 0 3rem;
-} */
+.player-display {
+  text-align: right;
+}
 
 button {
   width: 140px;
